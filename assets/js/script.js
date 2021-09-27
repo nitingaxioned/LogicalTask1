@@ -72,7 +72,18 @@ for(i=1; i<7; i++){
 
 document.write("<br><br>7)<br><br>")
 
-
+for(i=1; i<5; i++){
+    for(j=1; j<=(5-i); j++){
+        document.write(" &nbsp;");
+    }
+    for(k=i; k<(i*2) ;k++){
+        document.write(k);
+    }
+    for(k=((i*2)-2); k>=i ;k--){
+        document.write(k);
+    }
+    document.write("<br>")
+}
 
 
 

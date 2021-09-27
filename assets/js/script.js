@@ -10,7 +10,25 @@ document.write("Pattern Program:<br><br>1)<br><br>");
 
 document.write("<br><br>2)<br><br>");
 
-
+for(i=1; i<6; i++){
+    for(j=1; j<=(5-i); j++){
+        document.write("&nbsp;");
+    }
+    for(k=1; k<=((2*i)-1); k++){
+        if(i!=5){
+            if(k==1 || k==((2*i)-1)){
+                document.write("*");
+            }
+            else{
+                document.write("&nbsp;");
+            }
+        }
+        else{
+            document.write("*");
+        }
+    }
+    document.write("<br>")
+}
 
 document.write("<br><br>3)<br><br>");
 

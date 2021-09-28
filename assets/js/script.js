@@ -13,7 +13,7 @@ function fun(i, r){
     document.write("<br>");
 }
 
-document.write("Pattern Program:<br><br>1)<br><br>");
+document.write("<tt>Pattern Program:<br><br>1)<br><br></tt>");
 
 for(i=1; i<=row; i++){
     for(j=1; j<=(row-i); j++)
@@ -31,16 +31,16 @@ document.write("<br><br>2)<br><br>");
 
 for(i=1; i<=row; i++){
     for(j=1; j<=(row-i); j++)
-        document.write("&nbsp;");
+        document.write("&nbsp;&nbsp;");
     for(k=1; k<=((2*i)-1); k++){
         if(i!=row){
             if(k==1 || k==((2*i)-1))
                 document.write("*");
             else
-                document.write("&nbsp;");
+                document.write("&nbsp;&nbsp;");
         }
         else
-            document.write("*");
+            document.write("* ");
     }
     document.write("<br>")
 }
@@ -81,9 +81,9 @@ for(i=1; i<row; i++){
     for(j=1; j<=(row-i); j++)
         document.write(" &nbsp;");
     for(k=i; k<(i*2) ;k++)
-        document.write(k);
+        document.write(k+" ");
     for(k=((i*2)-2); k>=i ;k--)
-        document.write(k);
+        document.write(k+" ");
     document.write("<br>");
 }
 

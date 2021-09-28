@@ -55,11 +55,57 @@ for(i=1; i<4; i++){
 
 document.write("<br><br>4)<br><br>");
 
-
+for(i=5; i>0; i--){
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    for(j=1; j<=(10-(2*i));j++){
+        document.write("&nbsp; ");
+    }
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    document.write("<br>");
+}
+for(i=1; i<=5; i++){
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    for(j=1; j<=(10-(2*i));j++){
+        document.write("&nbsp; ");
+    }
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    document.write("<br>");
+}
 
 document.write("<br><br>5)<br><br>");
 
-
+for(i=1; i<=5; i++){
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    for(j=1; j<=(10-(2*i));j++){
+        document.write("&nbsp; ");
+    }
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    document.write("<br>");
+}
+for(i=5; i>0; i--){
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    for(j=1; j<=(10-(2*i));j++){
+        document.write("&nbsp; ");
+    }
+    for(j=1; j<=i;j++){
+        document.write("* ");
+    }
+    document.write("<br>");
+}
 
 document.write("<br><br>6)<br><br>");
 
